@@ -1,0 +1,145 @@
+/* CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Philosopher:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+body{
+    background: url("Deomali-mountain-peak-in-Koraput-to-undergo-facelift-for-‘destination-wedding.jpg") no-repeat center center/cover;
+    text-align: center;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+/* navabar style */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    margin: 3px 4px;
+}
+
+#logo img{
+    height: 120px;
+    width: 120px;
+    margin: 3px 4px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.items{
+    color: white;
+    list-style:none;
+    font-size: 1.3rem;
+}
+
+.items a{
+    display: block;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-color: red;
+}
+
+.items a:hover{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* section style */
+
+#home{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    position: absolute;
+    height: 200px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#about{
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#nearest_touriest_place{
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#location{
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#nearest_touriest_place img{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* Utility Classes */
+
+.h_primary{
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+}
+
+.text_style{
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.b_style{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* CSS END */
